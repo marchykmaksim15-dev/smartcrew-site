@@ -371,11 +371,12 @@ h1 {
   left: 2%;
   width: 238px;
   color: var(--text);
-  font-family: "Segoe Print", "Bradley Hand ITC", "Comic Sans MS", cursive;
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 1.04;
-  letter-spacing: -0.03em;
+  font-family: Inter, "SF Pro Display", "Segoe UI", Arial, sans-serif;
+  font-size: 23px;
+  font-style: italic;
+  font-weight: 900;
+  line-height: 1.02;
+  letter-spacing: -0.05em;
   transform: rotate(-7deg);
   text-shadow:
     0 2px 0 rgba(255, 255, 255, 0.9),
@@ -3044,7 +3045,7 @@ body.modal-open {
     top: 49%;
     left: 7%;
     width: 128px;
-    font-size: 13.5px;
+    font-size: 12.5px;
     line-height: 1.02;
   }
 

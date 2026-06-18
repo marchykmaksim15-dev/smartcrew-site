@@ -116,7 +116,8 @@ if (modal) {
     const region = regions[regionValue] || "не указан";
     const leads = selectedValue("leads") || "не указано";
     const productPrice = displayValue("productPrice") || "не указано";
-    const intro = `Вводные: ${niche.toLowerCase()}, ${lowerFirst(region)}, нужно ${leads}, стоимость продукта ${productPrice}.`;
+    const productPriceSentence = productPrice.replace(/\.$/, "");
+    const intro = `Вводные: ${niche.toLowerCase()}, ${lowerFirst(region)}, нужно ${leads}, стоимость продукта ${productPriceSentence}.`;
 
     resultCost.textContent = "Запуск под ключ: 4-5 недель";
     resultSummary.textContent = intro;
