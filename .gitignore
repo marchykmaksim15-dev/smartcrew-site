@@ -1,0 +1,6 @@
+.DS_Store
+Thumbs.db
+*.log
+.server.cjs
+hero-visual-brief.md
+medal-design-brief.md
